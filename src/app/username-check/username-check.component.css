@@ -1,0 +1,43 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.content input {
+    border: 3px solid blue;
+    background-color: beige;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.content button {
+    width: 100px;
+}
+
+.content button:disabled {
+    background-color: rgb(129, 129, 255);
+    color: bisque;
+    border-radius: 5px;
+}
+
+.content button:enabled {
+    background-color: blue;
+    color: bisque;
+    border-radius: 5px;
+}

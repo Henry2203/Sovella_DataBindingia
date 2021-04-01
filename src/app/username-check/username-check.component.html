@@ -1,0 +1,10 @@
+<section class="username-check">
+    <h1>Sovella Angularin neljää Data Bindingia</h1>
+    <section class="content">
+        <input type="text" class="form-control" [(ngModel)]="UserName">
+
+        <button [disabled]="UserName === ''" class=" btn btn-primary " (click)="onReset() ">Reset Username</button>
+
+        <p class="sisennys ">Your username is {{ UserName }}</p>
+    </section>
+</section>
